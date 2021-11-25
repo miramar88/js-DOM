@@ -13,7 +13,6 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  color: #292929;
 }
 
 h1, p {
@@ -28,31 +27,28 @@ h1, p {
   justify-content: center; 
   align-items: center;
   overflow: hidden;
+   background-color: #eee;
 }
 
 .container {
   max-width: 1000px;
   padding: 40px;
   margin: 0 auto;
-  text-align: center;
-  border: 1px solid transparent;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
 }
 
-#trafficLight {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: black;
-  margin: 0 auto;
+
+p {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-family: 'Roboto-Bold', sans-serif;
+  font-weight: 700;
+  color: #4db956;
   cursor: pointer;
 }
 
-h1 {
-  margin-bottom: 18px;
+p:first-of-type {
+  margin-top: 0;
 }
 
-p {
-  margin-bottom: 36px;
-}
+
