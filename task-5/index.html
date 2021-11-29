@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>task 5</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <h1>
+        Перехват формы
+      </h1>
+      <div class="inner">
+        <form action="">
+          <label for="textField">Поле ввода текста</label>
+          <input type="text" id="textField" value="" placeholder="Ваш текст">
+          <button type="submit">
+            Вывести текст в консоль и удалить из формы
+          </button>
+        </form>
+        <p>
+          Введенный текст
+        </p>
+        <p id="duplicateField"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

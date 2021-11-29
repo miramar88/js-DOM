@@ -3,11 +3,17 @@
   src: url('../fonts/Roboto-Regular.woff'), url('../fonts/Roboto-Regular.woff2');
 }
 
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('../fonts/Roboto-Bold.woff'), url('../fonts/Roboto-Bold.woff2');
+}
+
 body {
   font-family: 'Roboto-Regular', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  color: #292929;
 }
 
 h1, p {
@@ -28,5 +34,16 @@ h1, p {
   max-width: 1000px;
   padding: 40px;
   margin: 0 auto;
-  background-color: #eee;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+label, input, button {
+  display: block;
 }
